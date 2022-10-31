@@ -1,0 +1,4 @@
+rootProject.name = 'grpc-multi-module'
+include 'grpc-common'
+include 'grpc-helloservice'
+

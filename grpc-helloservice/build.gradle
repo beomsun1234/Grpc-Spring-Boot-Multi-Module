@@ -1,0 +1,15 @@
+group = 'com.bs'
+version = '0.0.1-SNAPSHOT'
+
+dependencies {
+
+	compileOnly project(':grpc-common')
+	implementation 'org.springframework.boot:spring-boot-starter-webflux'
+	compileOnly 'org.projectlombok:lombok'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	annotationProcessor 'org.projectlombok:lombok'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'io.projectreactor:reactor-test'
+	runtimeOnly 'io.grpc:grpc-netty-shaded:1.50.2'
+
+}
