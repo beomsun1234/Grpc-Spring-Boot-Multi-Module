@@ -81,4 +81,5 @@ MultiTenantRoutingConnectionFactory가 상속한 AbstractRoutingConnectionFactor
 
 아래는 Transaction이 발생했을 때 디버깅한 사진이다.
 
-[사진]
+![slave](https://user-images.githubusercontent.com/68090443/200344089-2277d85a-6a6f-48df-9e97-5059e87505a1.PNG)
+
