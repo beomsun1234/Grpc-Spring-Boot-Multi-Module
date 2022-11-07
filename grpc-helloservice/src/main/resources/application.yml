@@ -1,0 +1,13 @@
+r2dbc:
+  master:
+    address: "34.64.108.102"
+    port: 32257
+    username: "root"
+    password: "1234"
+    db: "master"
+  slave:
+    address: "34.64.108.102"
+    port: 32257
+    username: "root"
+    password: 1234
+    db: "slave"
